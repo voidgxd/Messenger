@@ -9,19 +9,37 @@
 /* Begin PBXBuildFile section */
 		AB02CB252A14D6A000C852C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB02CB242A14D6A000C852C7 /* AppDelegate.swift */; };
 		AB02CB272A14D6A000C852C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB02CB262A14D6A000C852C7 /* SceneDelegate.swift */; };
-		AB02CB292A14D6A000C852C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB02CB282A14D6A000C852C7 /* ViewController.swift */; };
+		AB02CB292A14D6A000C852C7 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB02CB282A14D6A000C852C7 /* AuthViewController.swift */; };
 		AB02CB2E2A14D6A100C852C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB02CB2D2A14D6A100C852C7 /* Assets.xcassets */; };
 		AB02CB312A14D6A100C852C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB02CB2F2A14D6A100C852C7 /* LaunchScreen.storyboard */; };
+		AB02CB392A14DB2C00C852C7 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB02CB382A14DB2C00C852C7 /* UIButton + Extension.swift */; };
+		AB02CB3B2A14DCE300C852C7 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB02CB3A2A14DCE300C852C7 /* UIFont + Extension.swift */; };
+		AB02CB3D2A14DDA900C852C7 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB02CB3C2A14DDA900C852C7 /* UIColor + Extension.swift */; };
+		AB02CB3F2A14DFFB00C852C7 /* Label + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB02CB3E2A14DFFB00C852C7 /* Label + Extension.swift */; };
+		AB02CB412A14E09600C852C7 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB02CB402A14E09600C852C7 /* UIImageView + Extension.swift */; };
+		AB02CB452A14E50100C852C7 /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB02CB442A14E50100C852C7 /* ButtonFormView.swift */; };
+		AB02CB472A14E8B400C852C7 /* StackVIew + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB02CB462A14E8B400C852C7 /* StackVIew + Extension.swift */; };
+		AB02CB492A14EADB00C852C7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB02CB482A14EADB00C852C7 /* SignUpViewController.swift */; };
+		AB02CB4B2A14ECC200C852C7 /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB02CB4A2A14ECC200C852C7 /* OneLineTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB02CB212A14D6A000C852C7 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB02CB242A14D6A000C852C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB02CB262A14D6A000C852C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB02CB282A14D6A000C852C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB02CB282A14D6A000C852C7 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		AB02CB2D2A14D6A100C852C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB02CB302A14D6A100C852C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB02CB322A14D6A100C852C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB02CB382A14DB2C00C852C7 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		AB02CB3A2A14DCE300C852C7 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		AB02CB3C2A14DDA900C852C7 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		AB02CB3E2A14DFFB00C852C7 /* Label + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label + Extension.swift"; sourceTree = "<group>"; };
+		AB02CB402A14E09600C852C7 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		AB02CB442A14E50100C852C7 /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
+		AB02CB462A14E8B400C852C7 /* StackVIew + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackVIew + Extension.swift"; sourceTree = "<group>"; };
+		AB02CB482A14EADB00C852C7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AB02CB4A2A14ECC200C852C7 /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +74,37 @@
 			children = (
 				AB02CB242A14D6A000C852C7 /* AppDelegate.swift */,
 				AB02CB262A14D6A000C852C7 /* SceneDelegate.swift */,
-				AB02CB282A14D6A000C852C7 /* ViewController.swift */,
+				AB02CB282A14D6A000C852C7 /* AuthViewController.swift */,
+				AB02CB482A14EADB00C852C7 /* SignUpViewController.swift */,
+				AB02CB422A14E22A00C852C7 /* Extensions */,
 				AB02CB2D2A14D6A100C852C7 /* Assets.xcassets */,
 				AB02CB2F2A14D6A100C852C7 /* LaunchScreen.storyboard */,
 				AB02CB322A14D6A100C852C7 /* Info.plist */,
 			);
 			path = Messenger;
+			sourceTree = "<group>";
+		};
+		AB02CB422A14E22A00C852C7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB02CB432A14E24700C852C7 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AB02CB432A14E24700C852C7 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				AB02CB442A14E50100C852C7 /* ButtonFormView.swift */,
+				AB02CB4A2A14ECC200C852C7 /* OneLineTextField.swift */,
+				AB02CB3C2A14DDA900C852C7 /* UIColor + Extension.swift */,
+				AB02CB382A14DB2C00C852C7 /* UIButton + Extension.swift */,
+				AB02CB462A14E8B400C852C7 /* StackVIew + Extension.swift */,
+				AB02CB3E2A14DFFB00C852C7 /* Label + Extension.swift */,
+				AB02CB3A2A14DCE300C852C7 /* UIFont + Extension.swift */,
+				AB02CB402A14E09600C852C7 /* UIImageView + Extension.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +177,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB02CB292A14D6A000C852C7 /* ViewController.swift in Sources */,
+				AB02CB4B2A14ECC200C852C7 /* OneLineTextField.swift in Sources */,
+				AB02CB492A14EADB00C852C7 /* SignUpViewController.swift in Sources */,
+				AB02CB3B2A14DCE300C852C7 /* UIFont + Extension.swift in Sources */,
+				AB02CB292A14D6A000C852C7 /* AuthViewController.swift in Sources */,
+				AB02CB3F2A14DFFB00C852C7 /* Label + Extension.swift in Sources */,
+				AB02CB452A14E50100C852C7 /* ButtonFormView.swift in Sources */,
 				AB02CB252A14D6A000C852C7 /* AppDelegate.swift in Sources */,
+				AB02CB412A14E09600C852C7 /* UIImageView + Extension.swift in Sources */,
+				AB02CB3D2A14DDA900C852C7 /* UIColor + Extension.swift in Sources */,
+				AB02CB472A14E8B400C852C7 /* StackVIew + Extension.swift in Sources */,
 				AB02CB272A14D6A000C852C7 /* SceneDelegate.swift in Sources */,
+				AB02CB392A14DB2C00C852C7 /* UIButton + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
